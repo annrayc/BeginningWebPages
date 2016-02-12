@@ -1,0 +1,15 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header,footer {
+	background-color: #3E3E3E;
+	color: #F6F6F6;
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+	max-width: 500px;
+    height: 100px;
+}
