@@ -8,48 +8,41 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/appmain.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="scripts/jquery.min.js"></script>
+	<script src = "bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-<header class="container-fluid">Header</header>
+<header>
 
+		<nav class="navbar navbar-inverse" role = "navigation">
 		<div class="container-fluid">
-			<div class= "row">
-				<aside class = "col-sm-2">
-					<h4 class="skill-title">
-					<b>Extraordinary Skills<b>
-					</h4>
-					<div class="skill-list">
-						
-						<a href="#">
-							<i class="fa fa-code fa-4x"></i>
-						<h6>Technical skills</h6>
-						</a>
-						<hr>
-						<a href="#">
-							<i class="fa fa-users fa-4x"></i>
-						<h6>Memberships</h6>
-						</a>
-						<hr>
-						<a href="#">
-							<i class="fa fa-hand-peace-o fa-4x"></i>
-						<h6>Causes</h6>
-						</a>
-						<hr>
-						<a href="#">
-							<i class="fa fa-hand-spock-o fa-4x"></i>
-						<h6>Hidden Talents</h6>
-						</a>
-						<hr>
-						<a href="#">
-							<i class="fa fa-bolt fa-4x"></i>
-						<h6>Superpowers</h6>
-						</a>
-					</div>
-					
-				</aside>
+			<div class ="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" 
+                            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class= "navbar-brand" href="">Brand</a>
+			</div>	
+		 	<div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		 		<ul class="nav navbar-nav navbar-right">
+		 			<li><a href="#home"><i class="fa fa-home fa-lg"></i> Home</a></li>
+		 			<li><a href="#about"><i class="fa fa-graduation-cap fa-lg"></i> About</a></li>
+		 			<li><a href="#projects"><i class="fa fa-briefcase fa-lg"></i> Projects</a></li>
+		 			<li><a href="#blog"><i class="fa fa-quote-right fa-lg"></i> Blog</a></li>
+		 			<li><a href="#contact"><i class="fa fa-at fa-lg"></i> Contact</a></li>
+		 		</ul>	
+		 	</div>
+		 	</div>
+		</nav>
+</header>
 
-
-				<section class = "col-sm-8">
+		<div class="container-fluid container-sm-height">
+			<div class= "row row-sm-height">
+				
+				<section class = "col-sm-9 col-lg-8 col-sm-push-3 col-lg-push-2 col-sm-height">
 
 					<article>
 						<h2>Why I want to code?</h2>
@@ -98,9 +91,44 @@
 
 				</section>
 
-
-				<aside class ="site-nav-list col-sm-2">
+				<aside class = "col-sm-3 col-lg-2 col-sm-pull-9 col-lg-pull-8 col-sm-height">
+					<h4 class="skill-title">
+					<b>Extraordinary Skills<b>
+					</h4>
+					<div class="skill-list col-sm-2">
+						
+						<a href="#">
+							<i class="fa fa-code fa-4x"></i>
+						<h6>Technical skills</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<i class="fa fa-users fa-4x"></i>
+						<h6>Memberships</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<i class="fa fa-hand-peace-o fa-4x"></i>
+						<h6>Causes</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<i class="fa fa-hand-spock-o fa-4x"></i>
+						<h6>Hidden Talents</h6>
+						</a>
+						<hr>
+						<a href="#">
+							<i class="fa fa-bolt fa-4x"></i>
+						<h6>Superpowers</h6>
+						</a>
+					</div>
 					
+				</aside>
+
+
+
+				<aside class ="site-nav-list col-xs-12 col-sm-2 col-sm-height">
+					<div class="homepage-nav">
 					<a href="#">
 						<i class="fa fa-home fa-4x"></i>
 						<h6>Home</h6>
@@ -125,11 +153,11 @@
 						<i class="fa fa-at fa-4x"></i>
 						<h6>Contact</h6>
 					</a>
-					
+					</div>
 				</aside>
 			</div>
 
 		</div>
-<footer class = "container-fluid">Footer</footer>
+<footer class = "container-fluid"><h1>Footer</h1></footer>
 </body>
 </html>
